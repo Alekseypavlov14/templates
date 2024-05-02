@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "The library of functions to work with html templates in js",
   "main": "./build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alekseypavlov14/templates"
+  },
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "tsc"

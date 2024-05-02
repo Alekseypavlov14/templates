@@ -16,7 +16,7 @@ export class TemplateUtils {
 
   static replaceTemplate(selector: string, content: string): void {
     return this.hydrateTemplates(selector, (element) => {
-      element.replaceWith(content || '')
+      element.outerHTML = content || ''
     })
   }
 

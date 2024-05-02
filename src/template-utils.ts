@@ -1,4 +1,4 @@
-interface Attributes {
+export interface Attributes {
   [key: string]: string | undefined
 }
 

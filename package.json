@@ -1,6 +1,6 @@
 {
   "name": "@oleksii-pavlov/templates",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The library of functions to work with html templates in js",
   "main": "./build/index.js",
   "repository": {

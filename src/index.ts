@@ -1,1 +1,1 @@
-export * from './template-utils'
+export { TemplateUtils, Attributes } from './template-utils'

@@ -1,0 +1,22 @@
+{
+  "name": "@oleksii-pavlov/templates",
+  "version": "1.0.0",
+  "description": "The library of functions to work with html templates in js",
+  "main": "./build/index.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": [
+    "templates",
+    "html",
+    "hydrate",
+    "selectors",
+    "mount"
+  ],
+  "author": "Oleksii Pavlov <aleshapavlov9@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
